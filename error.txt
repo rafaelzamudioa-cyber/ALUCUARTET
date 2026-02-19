@@ -1,0 +1,242 @@
+openjdk version "17.0.18" 2026-01-20
+OpenJDK Runtime Environment (build 17.0.18+8-Ubuntu-125.10.1)
+OpenJDK 64-Bit Server VM (build 17.0.18+8-Ubuntu-125.10.1, mixed mode, sharing)
+Initialized native services in: /root/.gradle/native
+Initialized jansi services in: /root/.gradle/native
+The client will now receive all logging from the daemon (pid: 27840). The daemon log file: /root/.gradle/daemon/7.5/daemon-27840.out.log
+Starting 6th build in daemon [uptime: 1 hrs 1 mins 3.047 secs, performance: 99%, non-heap usage: 38% of 256 MiB]
+Using 8 worker leases.
+Not watching /root/ALUCUARTET since the file system is not supported
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/root/ALUCUARTET/settings.gradle'.
+Projects loaded. Root project using build file '/root/ALUCUARTET/build.gradle'.
+Included projects: [root project 'ALUCUARTET', project ':app']
+
+> Configure project :
+Evaluating root project 'ALUCUARTET' using build file '/root/ALUCUARTET/build.gradle'.
+
+> Configure project :app
+Evaluating project ':app' using build file '/root/ALUCUARTET/app/build.gradle'.
+Using default execution profile
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 34
+
+This Android Gradle plugin (7.4.2) was tested up to compileSdk = 33
+
+This warning can be suppressed by adding
+    android.suppressUnsupportedCompileSdk=34
+to this project's gradle.properties
+
+The build will continue, but you are strongly encouraged to update your project to
+use a newer Android Gradle Plugin that has been tested with compileSdk = 34
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:compileDebugAidl', task ':app:compileDebugRenderscript', task ':app:generateDebugBuildConfig', task ':app:javaPreCompileDebug', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+:app:preBuild (Thread[Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild (Thread[Execution worker,5,main]) completed. Took 0.012 secs.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+:app:preDebugBuild (Thread[Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+:app:preDebugBuild (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.007 secs.
+Resolve mutations for :app:compileDebugAidl (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:compileDebugAidl (Thread[Execution worker Thread 5,5,main]) completed. Took 0.001 secs.
+:app:compileDebugAidl (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :app:compileDebugAidl NO-SOURCE
+Skipping task ':app:compileDebugAidl' as it has no source files and no previous output files.
+:app:compileDebugAidl (Thread[Execution worker Thread 5,5,main]) completed. Took 0.016 secs.
+Resolve mutations for :app:compileDebugRenderscript (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:compileDebugRenderscript (Thread[Execution worker Thread 3,5,main]) completed. Took 0.001 secs.
+:app:compileDebugRenderscript (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:compileDebugRenderscript NO-SOURCE
+Skipping task ':app:compileDebugRenderscript' as it has no source files and no previous output files.
+:app:compileDebugRenderscript (Thread[Execution worker Thread 3,5,main]) completed. Took 0.007 secs.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[Execution worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:generateDebugBuildConfig (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+Caching disabled for task ':app:generateDebugBuildConfig' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date.
+:app:generateDebugBuildConfig (Thread[Execution worker Thread 3,5,main]) completed. Took 0.03 secs.
+Resolve mutations for :app:javaPreCompileDebug (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[Execution worker Thread 3,5,main]) completed. Took 0.001 secs.
+:app:javaPreCompileDebug (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+:app:javaPreCompileDebug (Thread[Execution worker Thread 3,5,main]) completed. Took 0.011 secs.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 3,5,main]) completed. Took 0.012 secs.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+:app:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+:app:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) completed. Took 0.013 secs.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) completed. Took 0.006 secs.
+:app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+:app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) completed. Took 0.023 secs.
+Resolve mutations for :app:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:generateDebugResources (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+:app:generateDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Skipping task ':app:generateDebugResources' as it has no actions.
+:app:generateDebugResources (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:mergeDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:mergeDebugResources (Thread[Execution worker Thread 3,5,main]) completed. Took 0.001 secs.
+:app:mergeDebugResources (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+:app:mergeDebugResources (Thread[Execution worker Thread 3,5,main]) completed. Took 0.043 secs.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 3,5,main]) completed. Took 0.007 secs.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) completed. Took 0.009 secs.
+:app:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+:app:extractDeepLinksDebug (Thread[Execution worker Thread 3,5,main]) completed. Took 0.008 secs.
+Resolve mutations for :app:processDebugMainManifest (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:processDebugMainManifest (Thread[Execution worker Thread 3,5,main]) completed. Took 0.001 secs.
+:app:processDebugMainManifest (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+:app:processDebugMainManifest (Thread[Execution worker Thread 3,5,main]) completed. Took 0.015 secs.
+Resolve mutations for :app:processDebugManifest (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:processDebugManifest (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+:app:processDebugManifest (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+:app:processDebugManifest (Thread[Execution worker Thread 2,5,main]) completed. Took 0.007 secs.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:processDebugManifestForPackage (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+:app:processDebugManifestForPackage (Thread[Execution worker Thread 2,5,main]) completed. Took 0.004 secs.
+Resolve mutations for :app:processDebugResources (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:processDebugResources (Thread[Execution worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:processDebugResources (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:mergeDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:mergeDebugShaders (Thread[Execution worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:mergeDebugShaders (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+:app:mergeDebugShaders (Thread[Execution worker Thread 4,5,main]) completed. Took 0.012 secs.
+Resolve mutations for :app:compileDebugShaders (Thread[Execution worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:compileDebugShaders (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+:app:compileDebugShaders (Thread[Execution worker Thread 2,5,main]) completed. Took 0.005 secs.
+Resolve mutations for :app:generateDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:generateDebugAssets (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:generateDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+:app:generateDebugAssets (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugResources FAILED
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Task ':app:processDebugResources' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:processDebugResources'.
+Transforming aapt2-7.4.2-8841542-linux.jar (com.android.tools.build:aapt2:7.4.2-8841542) with Aapt2Extractor
+AAPT2 aapt2-7.4.2-8841542-linux Daemon #0: starting
+:app:processDebugResources (Thread[Execution worker Thread 5,5,main]) completed. Took 0.084 secs.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+:app:mergeDebugAssets (Thread[Execution worker Thread 2,5,main]) completed. Took 0.025 secs.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugResources'.
+> A failure occurred while executing com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$TaskAction
+   > AAPT2 aapt2-7.4.2-8841542-linux Daemon #0: Daemon startup failed
+     This should not happen under normal circumstances, please file an issue if it does.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+14 actionable tasks: 1 executed, 13 up-to-date
+Some of the file system contents retained in the virtual file system are on file systems that Gradle doesn't support watching. The relevant state was discarded to ensure changes to these locations are properly detected. You can override this by explicitly enabling file system watching.
