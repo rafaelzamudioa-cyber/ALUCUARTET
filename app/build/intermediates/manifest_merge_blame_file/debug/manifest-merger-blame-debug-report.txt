@@ -10,41 +10,55 @@
 9        android:targetSdkVersion="34" />
 9-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:3:5-24:19
-12        android:allowBackup="true"
-12-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:4:9-35
-13        android:debuggable="true"
-14        android:extractNativeLibs="false"
-15        android:label="ALUCUARTET"
-15-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:5:9-35
-16        android:supportsRtl="true"
-16-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:6:9-35
-17        android:theme="@style/Theme.App" >
-17-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:7:9-41
-18        <activity
-18-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:9:9-11:39
-19            android:name="com.alucuartet.app.SplashActivity"
-19-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:10:13-43
-20            android:exported="true" />
-20-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:11:13-36
-21        <activity
-21-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:13:9-22:20
-22            android:name="com.alucuartet.app.MainActivity"
-22-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:14:13-41
-23            android:exported="true" >
-23-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:15:13-36
-24            <intent-filter>
-24-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:17:13-20:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:18:17-69
-25-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:18:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:19:17-77
-27-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:19:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:3:5-66
+11-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <application
+13-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:5:5-31:19
+14        android:allowBackup="true"
+14-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:8:9-35
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:7:9-43
+18        android:label="ALUCUARTET"
+18-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:6:9-35
+19        android:supportsRtl="true"
+19-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:9:9-35
+20        android:theme="@style/Theme.App"
+20-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:11:9-41
+21        android:usesCleartextTraffic="true" >
+21-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:10:9-44
+22        <activity
+22-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:13:9-16:52
+23            android:name="com.alucuartet.app.SplashActivity"
+23-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:14:13-43
+24            android:exported="true"
+24-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:15:13-36
+25            android:screenOrientation="portrait" />
+25-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:16:13-49
+26        <activity
+26-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:18:9-29:20
+27            android:name="com.alucuartet.app.MainActivity"
+27-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:19:13-41
+28            android:exported="true"
+28-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:20:13-36
+29            android:launchMode="singleTop"
+29-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:21:13-43
+30            android:screenOrientation="portrait" >
+30-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:22:13-49
+31            <intent-filter>
+31-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:24:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:25:17-68
+32-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:26:17-76
+34-->/root/ALUCUARTET/app/src/main/AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
