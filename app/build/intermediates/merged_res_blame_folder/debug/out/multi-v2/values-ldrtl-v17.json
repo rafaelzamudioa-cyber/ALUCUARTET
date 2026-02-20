@@ -4,7 +4,7 @@
             "outputFile": "com.alucuartet.app-mergeDebugResources-34:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/root/.gradle/caches/transforms-3/e565bb5d6389cec59b0a581999aff44f/transformed/material-1.11.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/transforms-3/e565bb5d6389cec59b0a581999aff44f/transformed/material-1.11.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
